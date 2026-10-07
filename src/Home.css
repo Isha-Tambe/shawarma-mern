@@ -1,0 +1,54 @@
+.home {
+    width: 98%;
+    margin: 20px auto;
+    text-align: left;
+}
+
+.home h1 {
+    text-align: left;
+    font-family: cursive;
+    font-size: 30px;
+    margin: 0;
+    margin-top: 0;
+}
+
+.home p {
+    font-family: cursive;
+    text-align: left;
+    font-size: 26px;
+    margin: 1px 0;
+}
+
+.home img {
+    float: left;
+    flex: 1;                    /* image takes left side */
+    max-width: 57%;             /* occupy half the container */
+    margin-right: 20px;         /* gap between image and text */
+}
+
+.home ul {
+  list-style: none;
+  padding: 0;
+  font-family: cursive;
+  font-size: 22px;
+}
+
+.home li {
+  display: flex;
+  justify-content: space-between; /* name left, price right */
+  padding: 8px 0;
+  border-bottom: 1px solid #ddd;
+}
+
+.home li:last-child {
+  border-bottom: none;
+}
+
+.item-name {
+  font-weight: 500;
+}
+
+.item-price {
+  font-weight: bold;
+  color: #ff6600;
+}
